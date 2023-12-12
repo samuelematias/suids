@@ -2,7 +2,7 @@
 
 # SuiDS
 
-> _<ins>S</ins>wift<ins>UI</ins> <ins>D</ins>esign <ins>S</ins>ystem_
+> _<strong><ins>S</ins></strong>wift<strong><ins>UI</ins></strong> <strong><ins>D</ins></strong>esign <strong><ins>S</ins></strong>ystem_
 
 ## Demo
 
