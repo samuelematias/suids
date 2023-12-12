@@ -6,7 +6,7 @@
 
 ## Demo
 
-Soon!
+https://github.com/samuelematias/suids/assets/5155386/6f0e3fae-7d44-4673-8be7-cf5c37e15501
 
 ## Tech Stack
 
