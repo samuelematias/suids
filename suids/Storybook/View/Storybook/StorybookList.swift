@@ -9,7 +9,6 @@ import SwiftUI
 
 struct StorybookList: View {  
     let items: [StorybookItem] = [
-        StorybookItem(componentName: "Button", view: AnyView(Buttton_storybook())),
         StorybookItem(componentName: "Button", view: AnyView(Buttton_storybook()))
     ]
     
