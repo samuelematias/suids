@@ -21,7 +21,7 @@ struct StorybookList: View {
                 }.listRowBackground(Color.Token.buttonTheme)
             }
             .scrollContentBackground(.hidden)
-            .navigationTitle("Componentes")
+            .navigationTitle("Components")
         } detail: {
             Text("Select a Component")
         }

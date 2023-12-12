@@ -22,6 +22,13 @@ final class suidsUITestsStorybook: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
+    func testCheckStorybookList(){
+        let app = XCUIApplication()
+        app.launch()
+        
+        let componentText = app.staticTexts["Components"]
+        XCTAssertTrue(componentText.exists, "The text 'Components' was not found on the screen.")
+    }
     
     func testCheckStorybookListItem(){
         let app = XCUIApplication()
@@ -35,7 +42,19 @@ final class suidsUITestsStorybook: XCTestCase {
         app.launch()
         
         let button = app.buttons["Button"]
-        XCTAssertTrue(button.exists)
+        XCTAssertTrue(button.waitForExistence(timeout: 10), "Button not found.")
         button.tap()
+    }
+    
+    func testCheckOpenStorybookListItemDetail(){
+        let app = XCUIApplication()
+        app.launch()
+        
+        let button = app.buttons["Button"]
+        XCTAssertTrue(button.waitForExistence(timeout: 10), "Button not found.")
+        button.tap()
+        
+        let buttonText = app.staticTexts["Button"]
+        XCTAssertTrue(buttonText.exists, "The text 'Button' was not found on the screen.")
     }
 }

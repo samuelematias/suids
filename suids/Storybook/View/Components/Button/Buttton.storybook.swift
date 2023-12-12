@@ -33,6 +33,7 @@ struct Buttton_storybook: View {
             }) {
                 TokenButtonLabel(name: "plus-icon", iconSize: .medium)
             }
+            .accessibility(identifier: "CustomButton")
             .buttonStyle(TokenButtonStyle(iconSize: .medium, backgroundColor: .theme))
             .sheet(isPresented: $showModal) {
                 SheetView()
@@ -43,6 +44,7 @@ struct Buttton_storybook: View {
             }) {
                 self.CircleButtonPrimary.buttonLabel
             }
+            .accessibility(identifier: "CircleButtonPrimary")
             .buttonStyle(self.CircleButtonPrimary.buttonStyle)
             .sheet(isPresented: $showModal) {
                 SheetView()
@@ -53,6 +55,7 @@ struct Buttton_storybook: View {
             }) {
                 self.CircleButtonSupport.buttonLabel
             }
+            .accessibility(identifier: "CircleButtonSupport")
             .buttonStyle(self.CircleButtonSupport.buttonStyle)
             .sheet(isPresented: $showModal) {
                 SheetView()
@@ -63,6 +66,7 @@ struct Buttton_storybook: View {
             }) {
                 self.IconButton.buttonLabel
             }
+            .accessibility(identifier: "IconButton")
             .buttonStyle(self.IconButton.buttonStyle)
             .sheet(isPresented: $showModal) {
                 SheetView()
@@ -73,6 +77,7 @@ struct Buttton_storybook: View {
             }) {
                 self.CapsuleButton.buttonLabel
             }
+            .accessibility(identifier: "CapsuleButton")
             .buttonStyle(self.CapsuleButton.buttonStyle)
             .sheet(isPresented: $showModal) {
                 SheetView()
@@ -83,6 +88,7 @@ struct Buttton_storybook: View {
             }) {
                 self.TextButton.buttonLabel
             }
+            .accessibility(identifier: "TextButton")
             .buttonStyle(self.TextButton.buttonStyle)
             .sheet(isPresented: $showModal) {
                 SheetView()
@@ -106,6 +112,7 @@ struct SheetView: View {
                  .font(.largeTitle)
                  .foregroundColor(.gray)
            }
+           .accessibility(identifier: "modalCloseButton")
          }
          .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
          .padding()

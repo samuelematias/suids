@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C00F11E2B290114001CEF87 /* suidsUITestsStorybook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00F11D2B290114001CEF87 /* suidsUITestsStorybook.swift */; };
+		7C00F1292B2906F8001CEF87 /* suidsUITestsButtonOnStorybook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00F1282B2906F8001CEF87 /* suidsUITestsButtonOnStorybook.swift */; };
 		7C3058DA2B289BBF00935CA4 /* suidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3058D92B289BBF00935CA4 /* suidsApp.swift */; };
 		7C3058DC2B289BBF00935CA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3058DB2B289BBF00935CA4 /* ContentView.swift */; };
 		7C3058DE2B289BC000935CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3058DD2B289BC000935CA4 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		7C00F11B2B290114001CEF87 /* suidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C00F11D2B290114001CEF87 /* suidsUITestsStorybook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suidsUITestsStorybook.swift; sourceTree = "<group>"; };
+		7C00F1282B2906F8001CEF87 /* suidsUITestsButtonOnStorybook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suidsUITestsButtonOnStorybook.swift; sourceTree = "<group>"; };
 		7C3058D62B289BBF00935CA4 /* suids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3058D92B289BBF00935CA4 /* suidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suidsApp.swift; sourceTree = "<group>"; };
 		7C3058DB2B289BBF00935CA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				7C00F11D2B290114001CEF87 /* suidsUITestsStorybook.swift */,
+				7C00F1282B2906F8001CEF87 /* suidsUITestsButtonOnStorybook.swift */,
 			);
 			path = suidsUITests;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C00F1292B2906F8001CEF87 /* suidsUITestsButtonOnStorybook.swift in Sources */,
 				7C00F11E2B290114001CEF87 /* suidsUITestsStorybook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
