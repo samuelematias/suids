@@ -2,7 +2,7 @@
 
 # SuiDS
 
-> _**S**wift**UI** **D**esign **S**ystem._
+> _**<u>S</u>**wift**<u>UI</u>** **<u>D</u>**esign **<u>S</u>**ystem._
 
 ## Demo
 
@@ -14,7 +14,7 @@ Soon!
 
 ## Overview
 
-SuiDS, **S**wift**UI** **D**esign **S**ystem, its a simple Design System to be used/implemented in your SwiftUI apps.
+SuiDS, **<u>S</u>**wift**<u>UI</u>** **<u>D</u>**esign **<u>S</u>**ystem, its a simple Design System to be used/implemented in your SwiftUI apps.
 
 - `suids/*/*` - The project.
 
