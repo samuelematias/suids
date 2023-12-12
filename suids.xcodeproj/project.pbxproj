@@ -18,6 +18,11 @@
 		7C3058F82B28AB9100935CA4 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3058F72B28AB9100935CA4 /* Typography.swift */; };
 		7C3058FC2B28AD7A00935CA4 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3058FB2B28AD7A00935CA4 /* Aliases.swift */; };
 		7C3059002B28ADFB00935CA4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3058FF2B28ADFB00935CA4 /* Button.swift */; };
+		7C3059062B28C5A000935CA4 /* StorybookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3059052B28C5A000935CA4 /* StorybookList.swift */; };
+		7C3059082B28C60D00935CA4 /* StorybookListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3059072B28C60D00935CA4 /* StorybookListItem.swift */; };
+		7C30590A2B28C62A00935CA4 /* StorybookListItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3059092B28C62A00935CA4 /* StorybookListItemDetail.swift */; };
+		7C30590D2B28E9D100935CA4 /* StorybookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30590C2B28E9D100935CA4 /* StorybookItem.swift */; };
+		7C3059112B28EC0A00935CA4 /* Buttton.storybook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3059102B28EC0A00935CA4 /* Buttton.storybook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		7C3058F72B28AB9100935CA4 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		7C3058FB2B28AD7A00935CA4 /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
 		7C3058FF2B28ADFB00935CA4 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		7C3059052B28C5A000935CA4 /* StorybookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorybookList.swift; sourceTree = "<group>"; };
+		7C3059072B28C60D00935CA4 /* StorybookListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorybookListItem.swift; sourceTree = "<group>"; };
+		7C3059092B28C62A00935CA4 /* StorybookListItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorybookListItemDetail.swift; sourceTree = "<group>"; };
+		7C30590C2B28E9D100935CA4 /* StorybookItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorybookItem.swift; sourceTree = "<group>"; };
+		7C3059102B28EC0A00935CA4 /* Buttton.storybook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttton.storybook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,7 @@
 		7C3058D82B289BBF00935CA4 /* suids */ = {
 			isa = PBXGroup;
 			children = (
+				7C3059012B28C3AC00935CA4 /* Storybook */,
 				7C3058EA2B28A65800935CA4 /* Helpers */,
 				7C3058E92B28A64600935CA4 /* Components */,
 				7C3058E72B28A61700935CA4 /* Foundations */,
@@ -144,6 +155,58 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		7C3059012B28C3AC00935CA4 /* Storybook */ = {
+			isa = PBXGroup;
+			children = (
+				7C30590B2B28E89100935CA4 /* Model */,
+				7C3059022B28C3D400935CA4 /* View */,
+			);
+			path = Storybook;
+			sourceTree = "<group>";
+		};
+		7C3059022B28C3D400935CA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C30590F2B28EBE300935CA4 /* Components */,
+				7C30590E2B28EBA700935CA4 /* Storybook */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C30590B2B28E89100935CA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C30590C2B28E9D100935CA4 /* StorybookItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C30590E2B28EBA700935CA4 /* Storybook */ = {
+			isa = PBXGroup;
+			children = (
+				7C3059052B28C5A000935CA4 /* StorybookList.swift */,
+				7C3059072B28C60D00935CA4 /* StorybookListItem.swift */,
+				7C3059092B28C62A00935CA4 /* StorybookListItemDetail.swift */,
+			);
+			path = Storybook;
+			sourceTree = "<group>";
+		};
+		7C30590F2B28EBE300935CA4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7C3059122B28EDD900935CA4 /* Button */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7C3059122B28EDD900935CA4 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				7C3059102B28EC0A00935CA4 /* Buttton.storybook.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,11 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3059112B28EC0A00935CA4 /* Buttton.storybook.swift in Sources */,
+				7C30590A2B28C62A00935CA4 /* StorybookListItemDetail.swift in Sources */,
 				7C3059002B28ADFB00935CA4 /* Button.swift in Sources */,
+				7C3059082B28C60D00935CA4 /* StorybookListItem.swift in Sources */,
 				7C3058DC2B289BBF00935CA4 /* ContentView.swift in Sources */,
 				7C3058F62B28AB6800935CA4 /* Colors.swift in Sources */,
+				7C30590D2B28E9D100935CA4 /* StorybookItem.swift in Sources */,
 				7C3058FC2B28AD7A00935CA4 /* Aliases.swift in Sources */,
 				7C3058F82B28AB9100935CA4 /* Typography.swift in Sources */,
+				7C3059062B28C5A000935CA4 /* StorybookList.swift in Sources */,
 				7C3058DA2B289BBF00935CA4 /* suidsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
