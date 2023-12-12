@@ -14,7 +14,7 @@ Soon!
 
 ## Overview
 
-SuiDS, <ins>S</ins>wift<ins>UI</ins> <ins>D</ins>esign <ins>S</ins>ystem, its a simple Design System to be used/implemented in your SwiftUI apps.
+SuiDS, <strong><ins>S</ins></strong>wift<strong><ins>UI</ins></strong> <strong><ins>D</ins></strong>esign <strong><ins>S</ins></strong>ystem, its a simple Design System to be used/implemented in your SwiftUI apps.
 
 - `suids/*/*` - The project.
 
