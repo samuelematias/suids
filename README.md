@@ -23,6 +23,13 @@ SuiDS, <strong><ins>S</ins></strong>wift<strong><ins>UI</ins></strong> <strong><
 - `suids/Foundations/Theme/Data/*` - Theme data stuffs, like, Colors, Typography, etc.
 - `suids/Foundations/Tokens/*` - Our SuiDS Tokens, like, ColorTokens.
 - `suids/Helpers/*` - Utils that helpe us in the development.
+- `suids/Storybook/*` - The SuiDS Storybook, developed in SwiftUI.
+- `suids/Storybook/Model/*` - The necessary models for make Storybook works, like, StorybookItem Model.
+- `suids/Storybook/View/*` - Everything related about Storybook View/UI.
+- `suids/Storybook/View/Components/*` - Each component, from SuiDS, that we want to show on Storybook, like, Button.
+- `suids/Storybook/View/Storybook/*` - View/Components related to render the SuiDS Storybook.
+- `suids/suidsUITests/*` - All SuiDS UI Tests, using XCTestCase.
+
 
 ## Running Locally
 
