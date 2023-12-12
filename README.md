@@ -14,9 +14,15 @@ Soon!
 
 ## Overview
 
-SuiDS, <strong><ins>S</ins></strong>wift<strong><ins>UI</ins></strong> <strong><ins>D</ins></strong>esign <strong><ins>S</ins></strong>ystem, its a simple Design System to be used/implemented in your SwiftUI apps.
+SuiDS, <strong><ins>S</ins></strong>wift<strong><ins>UI</ins></strong> <strong><ins>D</ins></strong>esign <strong><ins>S</ins></strong>ystem, its a simple/basic Design System to be used/implemented in your SwiftUI apps.
 
-- `suids/*/*` - The project.
+- `suids/Components/*` - All SuiDS components.
+- `suids/Foundations/*` - The entire SuiDS foundation, like, Assets, Theme, Tokems, etc.
+- `suids/Foundations/Assets/*` - Assets, like, icons and images.
+- `suids/Foundations/Theme/*` - Everything related to Theme.
+- `suids/Foundations/Theme/Data/*` - Theme data stuffs, like, Colors, Typography, etc.
+- `suids/Foundations/Tokens/*` - Our SuiDS Tokens, like, ColorTokens.
+- `suids/Helpers/*` - Utils that helpe us in the development.
 
 ## Running Locally
 
