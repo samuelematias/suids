@@ -9,6 +9,7 @@ import SwiftUI
 
 struct StorybookList: View {  
     let items: [StorybookItem] = [
+        StorybookItem(componentName: "Button", view: AnyView(Buttton_storybook())),
         StorybookItem(componentName: "Button", view: AnyView(Buttton_storybook()))
     ]
     
@@ -18,7 +19,7 @@ struct StorybookList: View {
             List(items) { item in
                 NavigationLink(destination: StorybookListItemDetail(item: item)) {
                     StorybookListItem(item: item)
-                }
+                }.listRowBackground(Color.Token.buttonTheme)
             }
             .scrollContentBackground(.hidden)
             .navigationTitle("Componentes")
