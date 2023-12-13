@@ -7,15 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @State private var showModal = false
-    
-    let CircleButtonPrimary = TokenButton(circleButtonType: .primary, buttonIcon: "plus-icon")
-    let CircleButtonSupport = TokenButton(circleButtonType: .support, buttonIcon: "plus-icon")
-    let IconButton = TokenButton(buttonIcon: "share-icon")
-    let CapsuleButton = TokenButton(capsuleText: "Send")
-    let TextButton = TokenButton(buttonText: "Terms of use")
-    
+struct ContentView: View {   
     var body: some View {
         StorybookList()
     }
