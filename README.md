@@ -28,7 +28,7 @@ SuiDS, <strong><ins>S</ins></strong>wift<strong><ins>UI</ins></strong> <strong><
 - `suids/Storybook/View/*` - Everything related about Storybook View/UI.
 - `suids/Storybook/View/Components/*` - Each component, from SuiDS, that we want to show on Storybook, like, Button.
 - `suids/Storybook/View/Storybook/*` - View/Components related to render the SuiDS Storybook.
-- `suids/suidsUITests/*` - All SuiDS UI Tests, using XCTestCase.
+- `suidsUITests/*` - All SuiDS UI Tests, using XCTestCase.
 
 
 ## Running Locally
